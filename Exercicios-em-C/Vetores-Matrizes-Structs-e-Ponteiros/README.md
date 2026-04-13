@@ -31,11 +31,3 @@ Esta unidade marca a transição para conceitos de gerenciamento de memória e o
     * Definição e uso de `struct`.
     * Manipulação de strings com a biblioteca `<string.h>` (`strcpy` e `strcmp`).
     * Lógica de busca e atualização de campos específicos dentro de um array de estruturas.
-
----
-
-### 🛠️ Novas Ferramentas Técnicas
-Nesta etapa, comecei a utilizar:
-* **Gerenciamento de Memória**: Compreensão de como os dados são dispostos e acessados fisicamente.
-* **Tipos de Dados Customizados**: Criação de estruturas que refletem entidades do mundo real.
-* **Algoritmos de Busca**: Implementação de verificações lógicas para filtragem de dados em coleções.

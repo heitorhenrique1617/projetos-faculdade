@@ -1,0 +1,6 @@
+## Estruturas de Controle (Seleção e Repetição)
+Aqui os desafios envolveram tomada de decisão e automação de processos através de laços.
+ * **calculo-salario-liquido.c:** Um dos exercícios mais complexos, que simula uma folha de pagamento real. Utiliza estruturas condicionais **(if/else if)** para aplicar alíquotas de INSS e IR baseadas em faixas salariais, demonstrando o uso de constantes para regras de negócio.
+ * **media-notas-dinamica.c:** Implementação de um laço **do-while** com valor sentinela **(-1)**. O programa acumula notas e calcula a média apenas se houver dados válidos, prevenindo erros de divisão por zero.
+ * **desenho-triangulo-asteriscos.c:** Exercício de lógica pura utilizando laços de repetição aninhados. O programa gera uma pirâmide visual no console baseada no número de linhas informado pelo usuário.
+ * **gestao-matriculas-limite.c:** Um sistema de cadastro que utiliza as instruções **break** e **continue**. Ele permite registrar alunos por disciplina até que um limite total seja atingido, validando também entradas negativas.

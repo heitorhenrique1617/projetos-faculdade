@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #f9dcdc;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 24px;
+}
+
+header h1 {
+  color: #ff0059;
+  font-size: 36px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5a005c;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #c1a9a9;
+  color: #ce00d1;
+}
+
+.imagem-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imagem-menu img {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.imagem-menu img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 102px rgb(0, 0, 0, 0.2);
+  filter: grayscale(25%) brightness(75%);
+}
+
+h2, h3 {
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 24px;
+  color: #ff00bb
+}
+
+footer {
+  background-color: #f9dcdc;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+  margin-top: auto;
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  .imagem-menu {
+    gap: 8px;
+    padding: 15px
+  }
+
+  h2, h3 {
+    font-size: 18px
+  }
+  
+}
+
+/* Responsividade para telas menores que 480px */
+@media (max-width: 480px) {
+  nav ul {
+    gap: 8px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .imagem-menu {
+    gap: 6px;
+    padding: 10px;
+  }
+
+  h2, h3 {
+    font-size: 16px
+  }
+  
+}
